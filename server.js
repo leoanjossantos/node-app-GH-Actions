@@ -10,6 +10,7 @@ app.listen(PORT, () => {
 
 app.get('/', (req, res) => {
 	res.send({
-		ok: false
+		ok: false,
+		text: "Abracadabra!"
 	});
 })
