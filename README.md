@@ -1,4 +1,4 @@
 # GitHub Actions
 
-Simple Node app created in order to test GitHub Actions integration and deploy to Heroku
+Simple Node app created in order to deploy to Heroku by GitHub Actions.
 
