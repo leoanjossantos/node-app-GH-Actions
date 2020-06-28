@@ -17,6 +17,8 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        with:
+          build: npm run build
         
 # This workflow contains a single job called "build"
   build_and_push:
