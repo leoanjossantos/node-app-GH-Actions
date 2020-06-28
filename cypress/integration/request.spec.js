@@ -5,7 +5,7 @@ describe('Abracadabra Simple Request > ', () => {
 			.should((response) => {
 				expect(response.status).to.eq(200)
 		        expect(response.body).to.have.property('ok').to.eq(true)
-		        expect(response.body).to.have.property('text').to.eq('Abracadabra!')
+		        expect(response.body).to.have.property('text').to.eq('Abracadabras!')
     	})
 	})
 })
