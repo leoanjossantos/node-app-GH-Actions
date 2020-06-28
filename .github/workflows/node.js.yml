@@ -17,9 +17,11 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        run: npm run ci
         with:
           browser: chrome
           headless: true
+
         
 # This workflow contains a single job called "build"
   build_and_push:
