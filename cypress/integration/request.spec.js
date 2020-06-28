@@ -1,7 +1,7 @@
 describe('Abracadabra Simple Request > ', () => {
 
 	it('OK, I can request my simple rest api', () => {
-		cy.request('/')
+		cy.request('http://localhost:5000')
 			.should((response) => {
 				expect(response.status).to.eq(200)
 		        expect(response.body).to.have.property('ok').to.eq(true)
