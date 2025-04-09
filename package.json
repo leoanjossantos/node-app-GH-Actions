@@ -18,7 +18,7 @@
     "nodemon": "^1.18.9"
   },
   "devDependencies": {
-    "cypress": "^4.9.0",
+    "cypress": "^14.3.0",
     "start-server-and-test": "^1.7.13"
   }
 }
