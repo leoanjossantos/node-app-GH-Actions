@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
-    "nodemon": "^1.18.9"
+    "nodemon": "^3.1.9"
   },
   "devDependencies": {
     "cypress": "^4.9.0",
